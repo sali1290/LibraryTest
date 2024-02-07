@@ -14,3 +14,11 @@ S
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 >
 app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+C
+settings.gradle.kts,7\4\749edfcc96398253e5b3416184e95c46621da850
