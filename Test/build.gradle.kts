@@ -45,14 +45,14 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            register<MavenPublication>("release") {
-                groupId = "com.github.sali1290"
-                artifactId = "libraryTest"
-                version = "1.0.0"
-
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.sali1290"
+            artifactId = "libraryTest"
+            version = "1.0.4"
+            afterEvaluate {
+                from(components["release"])
             }
         }
     }
