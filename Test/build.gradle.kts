@@ -1,3 +1,5 @@
+import com.android.ide.common.gradle.RELEASE
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -50,6 +52,8 @@ afterEvaluate {
                 groupId = "com.github.sali1290"
                 artifactId = "LibraryTest"
                 version = "1.0.0"
+
+                from(components["release"])
             }
         }
     }
