@@ -50,7 +50,7 @@ afterEvaluate {
         publications {
             register<MavenPublication>("release") {
                 groupId = "com.github.sali1290"
-                artifactId = "LibraryTest"
+                artifactId = "libraryTest"
                 version = "1.0.0"
 
             }
