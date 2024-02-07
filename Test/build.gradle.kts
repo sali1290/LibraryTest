@@ -1,4 +1,5 @@
 import com.android.ide.common.gradle.RELEASE
+import java.net.URI
 
 plugins {
     id("com.android.library")
@@ -54,6 +55,11 @@ publishing {
             afterEvaluate {
                 from(components["release"])
             }
+        }
+    }
+    repositories {
+        maven {
+            url = URI("https://github.com/sali1290/LibraryTest")
         }
     }
 }
